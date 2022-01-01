@@ -1,0 +1,17 @@
+.about {
+  position: relative;
+}
+.halka {
+  color: rgb(128, 128, 128);
+  font-size: 80px;
+  font-weight: 900;
+  opacity: 0.25;
+}
+.show-blogs {
+  position: absolute;
+  top: 20px;
+  left: 45%;
+  z-index: 1;
+  font-size: 40px;
+  font-weight: 700;
+}
