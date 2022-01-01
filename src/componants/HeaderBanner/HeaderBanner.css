@@ -1,0 +1,36 @@
+.halka {
+  color: rgb(128, 128, 128);
+  font-size: 70px;
+  font-weight: 900;
+  opacity: 0.25;
+}
+
+.banner-container {
+  color: white;
+}
+.profile-pic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-pic img {
+  width: 350px;
+  height: 350px;
+}
+
+.icons > span {
+  border: 0.5px solid grey;
+}
+.icon-style {
+  padding: 5px 15px;
+  border: 1px solid grey;
+  margin: 4px;
+}
+.icon-style i {
+  color: rgb(185, 177, 177);
+}
+
+.icon-style i:hover {
+  color: rgb(15, 89, 248);
+}

@@ -1,0 +1,40 @@
+.about {
+  position: relative;
+}
+.halka {
+  color: rgb(128, 128, 128);
+  font-size: 80px;
+  font-weight: 900;
+  opacity: 0.25;
+}
+.show-about {
+  position: absolute;
+  top: 20px;
+  left: 40%;
+  z-index: 1;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.profile-des-1 {
+  color: grey;
+  text-align: justify;
+}
+
+.about-profile-pic img {
+  width: 350px;
+  height: 350px;
+}
+.profile-pic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-close {
+  background-color: white !important;
+}
+
+.personal-info > h5 {
+  color: grey !important;
+}

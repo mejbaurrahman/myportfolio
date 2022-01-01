@@ -1,0 +1,33 @@
+.about {
+  position: relative;
+}
+.halka {
+  color: rgb(128, 128, 128);
+  font-size: 80px;
+  font-weight: 900;
+  opacity: 0.25;
+}
+.show-about {
+  position: absolute;
+  top: 20px;
+  left: 40%;
+  z-index: 1;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+input {
+  width: 90%;
+  padding: 15px;
+  margin-top: 10px;
+  border: none;
+  border-bottom: 1px solid grey;
+}
+
+textarea {
+  width: 90%;
+  padding: 15px;
+  margin-top: 10px;
+  border: none;
+  border-bottom: 1px solid grey;
+}
