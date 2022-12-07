@@ -4,11 +4,15 @@ import Typed from 'react-typed';
 import Mejba from '../../images/MEJBA.jpg';
 import './HeaderBanner.css';
 import resume from '../../allfiles/resume.pdf';
+import Particles from 'react-particles-js';
+import { Particle } from 'react-tsparticles';
 
 const HeaderBanner = () => {
     return (
         <div className='bg-dark banner-container'>
+            <Particles className='fixed-top'></Particles>
             <div className='container'>
+            
             <div className='row'>
                 <div className='col-lg-6 col-md-6 col-12'>
                     <div   className='p-3 m-3'>
@@ -36,7 +40,7 @@ const HeaderBanner = () => {
                         <span></span>
                         <a  className='icon-style' target='_blank' href="https://www.linkedin.com/in/md-mejbaur-rahman-14b459227/"><i class="fab fa-linkedin-in"></i></a>
                         <span></span>
-                         <a className='icon-style' target='_blank' href="https://github.com/mejbadev"><i class="fab fa-github"></i></a> 
+                         <a className='icon-style' target='_blank' href="https://github.com/mejbaurrahman"><i class="fab fa-github"></i></a> 
                         <span></span>
                         <a className='icon-style' target='_blank' href="https://www.instagram.com/rmejbaur/"><i class="fab fa-instagram"></i></a> 
                         </div>

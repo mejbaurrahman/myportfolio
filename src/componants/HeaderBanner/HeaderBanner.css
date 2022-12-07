@@ -5,6 +5,19 @@
   opacity: 0.25;
 }
 
+.particle{
+  position: absolute;
+  /* top: 0; */
+  height: 100vh;
+}
+
+.header{
+  position: relative;
+
+  top: 0;
+
+}
+
 .banner-container {
   color: white;
 }
