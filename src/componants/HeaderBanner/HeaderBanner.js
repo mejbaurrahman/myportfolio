@@ -3,15 +3,15 @@ import { Link } from 'react-router-dom';
 import Typed from 'react-typed';
 import Mejba from '../../images/MEJBA.jpg';
 import './HeaderBanner.css';
-import resume from '../../allfiles/resume.pdf';
+import resume from '../../allfiles/mejba-resume.pdf';
 import Particles from 'react-particles-js';
 import { Particle } from 'react-tsparticles';
 
 const HeaderBanner = () => {
     return (
         <div className='bg-dark banner-container'>
-            <Particles className='fixed-top'></Particles>
-            <div className='container'>
+            <Particles className='position-absolute'></Particles>
+            <div className='container position-relative'>
             
             <div className='row'>
                 <div className='col-lg-6 col-md-6 col-12'>
@@ -44,7 +44,7 @@ const HeaderBanner = () => {
                         <span></span>
                         <a className='icon-style' target='_blank' href="https://www.instagram.com/rmejbaur/"><i class="fab fa-instagram"></i></a> 
                         </div>
-                <Link  to='/files/resume.pdf' target="_blank" download={resume}><button className='btn btn-outline-primary mt-5'>Resume <i class="fas fa-arrow-circle-down"></i></button></Link>
+                <Link  to='/files/mejba-resume.pdf' target="_blank" download={resume}><button className='btn btn-outline-primary mt-5'>Resume <i class="fas fa-arrow-circle-down"></i></button></Link>
                     </div>
                 </div>
                 <div className='col-lg-6 col-md-6 col-12 profile-pic'> 

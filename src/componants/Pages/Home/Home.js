@@ -3,6 +3,7 @@ import HeaderBanner from '../../HeaderBanner/HeaderBanner';
 import About from '../About/About';
 import Blogs from '../Blogs/Blogs';
 import Contact from '../Contact/Contact';
+import MyPortfolio from '../MyPortfolio/MyPortfolio';
 import Portfolio from '../Portfolio/Portfolio';
 
 const Home = () => {
@@ -11,6 +12,7 @@ const Home = () => {
             <HeaderBanner></HeaderBanner>
             <About></About>
             <Portfolio></Portfolio>
+            <MyPortfolio></MyPortfolio>
             <Blogs></Blogs>
             <Contact></Contact>
         </div>

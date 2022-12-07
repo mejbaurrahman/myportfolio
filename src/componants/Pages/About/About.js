@@ -23,49 +23,7 @@ const About = () => {
                                 I'm a Freelancer Front-end/ MERN Stack Developer with over 1 years of experience. I'm from Bangladesh. I code and create web elements for amazing people around the world. I like work with new people.
                                 </h4>
                             </div>
-                            <div data-aos="fade-down"  className='personal mt-3'>
-                                <h3 className='text-uppercase fw-bold'>What is my Skill Level</h3>
-                                <div className='skill-progress mb-5'>
-                              <div className='p-3 ps-0'>
-                              <h5 className='profile-des-1' >REACT JS</h5>
-                                <div className="progress">
-                                    <div className="react-percentage progress-bar" style={{width: '80%'}} role="progressbar"  aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">80%</div>
-                                    </div>
-                              </div>
-                              <div className='p-3 ps-0'>
-                              <h5 className='profile-des-1' >NODE JS</h5>
-                                <div className="progress">
-                                    <div className="react-percentage progress-bar" style={{width: '80%'}} role="progressbar"  aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">80%</div>
-                                    </div>
-                              </div>
-                              <div className='p-3 ps-0'>
-                              <h5 className='profile-des-1' >EXPRESS JS</h5>
-                                <div className="progress">
-                                    <div className="react-percentage progress-bar" style={{width: '80%'}} role="progressbar"  aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">80%</div>
-                                    </div>
-                              </div>
-                              <div className='p-3 ps-0'>
-                              <h5 className='profile-des-1' >BOOTSTRAP</h5>
-                                <div className="progress">
-                                    <div className="react-percentage progress-bar" style={{width: '85%'}} role="progressbar"  aria-valuenow="25" aria-valuemin="0" aria-valuemax="90">85%</div>
-                                    </div>
-                              </div>
-                              <div className='p-3 ps-0'>
-                              <h5 className='profile-des-1' >MONGODB</h5>
-                                <div className="progress">
-                                    <div className="react-percentage progress-bar " style={{width: '80%'}} role="progressbar"  aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">80%</div>
-                                    </div>
-                              </div>
-                              <div className='p-3 ps-0'>
-                              <h5 className='profile-des-1' >MATERIAL UI</h5>
-                                <div className="progress">
-                                    <div className="react-percentage progress-bar"   style={{width: '75%'}} role="progressbar"  aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">75%</div>
-                                    </div>
-                              </div>
-                                </div>
-
-                                
-                            </div>
+                            
                         </div>
                         
 <button type="button" className="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
@@ -146,9 +104,49 @@ const About = () => {
                         
                 </div>
                 <div className='col-lg-6 col-md-6 col-12 profile-pic'>
-                <div  data-aos="zoom-in-down" className='about-profile-pic mt-3'>
-                    <img  className='rounded img-fluid' src={Mejba} alt="" />
-                    </div>
+                <div data-aos="fade-down"  className='personal lg:mt-0'>
+                                <h3 className='text-uppercase fw-bold'>What is my Skill Level</h3>
+                                <div className='skill-progress mb-5'>
+                              <div className='p-3 ps-0'>
+                              <h5 className='profile-des-1' >REACT JS</h5>
+                                <div className="progress">
+                                    <div className="react-percentage progress-bar" style={{width: '80%'}} role="progressbar"  aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">80%</div>
+                                    </div>
+                              </div>
+                              <div className='p-3 ps-0'>
+                              <h5 className='profile-des-1' >NODE JS</h5>
+                                <div className="progress">
+                                    <div className="react-percentage progress-bar" style={{width: '80%'}} role="progressbar"  aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">80%</div>
+                                    </div>
+                              </div>
+                              <div className='p-3 ps-0'>
+                              <h5 className='profile-des-1' >EXPRESS JS</h5>
+                                <div className="progress">
+                                    <div className="react-percentage progress-bar" style={{width: '80%'}} role="progressbar"  aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">80%</div>
+                                    </div>
+                              </div>
+                              <div className='p-3 ps-0'>
+                              <h5 className='profile-des-1' >BOOTSTRAP</h5>
+                                <div className="progress">
+                                    <div className="react-percentage progress-bar" style={{width: '85%'}} role="progressbar"  aria-valuenow="25" aria-valuemin="0" aria-valuemax="90">85%</div>
+                                    </div>
+                              </div>
+                              <div className='p-3 ps-0'>
+                              <h5 className='profile-des-1' >MONGODB</h5>
+                                <div className="progress">
+                                    <div className="react-percentage progress-bar " style={{width: '80%'}} role="progressbar"  aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">80%</div>
+                                    </div>
+                              </div>
+                              <div className='p-3 ps-0'>
+                              <h5 className='profile-des-1' >MATERIAL UI</h5>
+                                <div className="progress">
+                                    <div className="react-percentage progress-bar"   style={{width: '75%'}} role="progressbar"  aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">75%</div>
+                                    </div>
+                              </div>
+                                </div>
+
+                                
+                            </div>
                    
                 </div>
                 
