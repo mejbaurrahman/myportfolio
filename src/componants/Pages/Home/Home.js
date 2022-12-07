@@ -4,14 +4,13 @@ import About from '../About/About';
 import Blogs from '../Blogs/Blogs';
 import Contact from '../Contact/Contact';
 import MyPortfolio from '../MyPortfolio/MyPortfolio';
-import Portfolio from '../Portfolio/Portfolio';
+// import Portfolio from '../Portfolio/Portfolio';
 
 const Home = () => {
     return (
         <div >
             <HeaderBanner></HeaderBanner>
             <About></About>
-            <Portfolio></Portfolio>
             <MyPortfolio></MyPortfolio>
             <Blogs></Blogs>
             <Contact></Contact>

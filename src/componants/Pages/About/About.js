@@ -19,8 +19,8 @@ const About = () => {
                         <div className='about-myself justify'>
                             <div data-aos="fade-up"  className='personal'>
                                 <h3 className='text-uppercase fw-bold'>Hi! I am Md. Mejbaur Rahman</h3>
-                                <h4 className='profile-des-1'>
-                                I'm a Freelancer Front-end/ MERN Stack Developer with over 1 years of experience. I'm from Bangladesh. I code and create web elements for amazing people around the world. I like work with new people.
+                                <h4 className='profile-des-1 fw-lighter'>
+                                I'm a Front-end/ MERN Stack Developer with over 1 years of experience. I'm from Bangladesh. I code and create web elements for amazing people around the world. I like work with new people.
                                 </h4>
                             </div>
                             

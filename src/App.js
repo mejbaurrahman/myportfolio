@@ -5,7 +5,7 @@ import About from './componants/Pages/About/About';
 import Blogs from './componants/Pages/Blogs/Blogs';
 import Contact from './componants/Pages/Contact/Contact';
 import Home from './componants/Pages/Home/Home';
-import Portfolio from './componants/Pages/Portfolio/Portfolio';
+import MyPortfolio from './componants/Pages/MyPortfolio/MyPortfolio';
 import Footer from './componants/Shared/Footer/Footer';
 import Header from './componants/Shared/Header/Header';
 
@@ -26,7 +26,7 @@ function App() {
             <About></About>
           </Route>
           <Route path='/portfolio'>
-            <Portfolio></Portfolio>
+            <MyPortfolio></MyPortfolio>
           </Route>
           <Route path='/contact'>
             <Contact></Contact>
