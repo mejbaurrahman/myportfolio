@@ -41,30 +41,28 @@ const About = () => {
             <div className='row'>
                 <div className='col-lg-6 col-md-6 col-12'>
                     <div className='personal-info p-2 m-2'>
-                        <h3>Personal Info</h3>
-                        <hr />
-                        <h5>Name: Md. Mejbaur Rahman</h5>
-                        <h5>Birthdate: 07/11/1992</h5>
-                        <h5>Email: mejba02@gmail.com</h5>
-                        <h5>Mobile: 01916102072</h5>
-
-                        {/* //5aCoogo34O3R0Mf4 */}
+                        <h3 className='fw-lighter'>Personal Info</h3>
+                        <hr className='fw-lighter' />
+                        <h5 className='fw-lighter'>Name: Md. Mejbaur Rahman</h5>
+                        <h5 className='fw-lighter'>Birthdate: 07/11/1992</h5>
+                        <h5 className='fw-lighter'>Email: mejbaurrahman03@gmail.com</h5>
+                        <h5 className='fw-lighter'>Mobile: +8801916102072</h5>
                     </div>
 
                     <div className='personal-info p-2 m-2'>
-                        <h3>Experience</h3>
-                        <hr />
-                        <h5>Web Developer</h5>
-                        <h5>2021-Present</h5>
-                        <hr />
-                        <h5>Assistant Programmer</h5>
-                        <h5>ICT Division</h5>
-                        <h5>Ministry of Post and Telecommunication</h5>
-                        <h5>2019-Present</h5>
+                        <h3 className='fw-lighter'>Experience</h3>
+                        <hr className='fw-lighter' />
+                        <h5 className='fw-lighter'>Full Stack Web Developer</h5>
+                        <h5 className='fw-lighter'>2021-Present</h5>
+                        <hr className='fw-lighter' />
+                        <h5 className='fw-lighter'>Assistant Programmer</h5>
+                        <h5 className='fw-lighter'>ICT Division</h5>
+                        <h5 className='fw-lighter'>Ministry of Post and Telecommunication</h5>
+                        <h5 className='fw-lighter'>2019-Present</h5>
                             <hr />
-                        <h5>Lecturer in CSE</h5>
-                        <h5>Dhaka Internationa University</h5>
-                        <h5>June, 2016- January, 2017</h5>
+                        <h5 className='fw-lighter'>Lecturer in CSE</h5>
+                        <h5 className='fw-lighter'>Dhaka Internationa University</h5>
+                        <h5 className='fw-lighter'>June, 2016- January, 2017</h5>
                        
                         
                         
@@ -75,19 +73,19 @@ const About = () => {
                 </div>
                 <div className='col-lg-6 col-md-6 col-12'>
                         <div className='personal-info p-2 m-2'>
-                        <h3>Educational Info</h3>
-                        <hr />
-                        <h5>BSc in Computer Science & Engineering</h5>
-                        <h5>University of Dhaka</h5>
-                        <h5>Getting 3.34 out of 4.00</h5>
+                        <h3 className='fw-lighter'>Educational Info</h3>
+                        <hr className='fw-lighter' />
+                        <h5 className='fw-lighter'>BSc in Computer Science & Engineering</h5>
+                        <h5 className='fw-lighter'>University of Dhaka</h5>
+                        <h5 className='fw-lighter'>Getting 3.34 out of 4.00</h5>
                         </div>
                         <div className='personal-info p-2 m-2'>
-                        <h3>Language Proficiencies</h3>
+                        <h3 className='fw-lighter'>Language Proficiencies</h3>
                         <hr />
-                        <h5>Bangla (Native)</h5>
-                        <h5>English (Full Proficiency)</h5>
-                        <h5>Hindi (Comfortable in Speaking and Listening)</h5>
-                        <h5>Urdu (Comfortable in Speaking and Listening)</h5>
+                        <h5 className='fw-lighter'>Bangla (Native)</h5>
+                        <h5 className='fw-lighter'>English (Full Proficiency)</h5>
+                        <h5 className='fw-lighter'>Hindi (Comfortable in Speaking and Listening)</h5>
+                        <h5 className='fw-lighter'>Urdu (Comfortable in Speaking and Listening)</h5>
                         </div>
                    
                 </div>
@@ -110,23 +108,29 @@ const About = () => {
                               <div className='p-3 ps-0'>
                               <h5 className='profile-des-1' >REACT JS</h5>
                                 <div className="progress">
-                                    <div className="react-percentage progress-bar" style={{width: '80%'}} role="progressbar"  aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">80%</div>
+                                    <div className="react-percentage progress-bar" style={{width: '90%'}} role="progressbar"  aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">90%</div>
                                     </div>
                               </div>
                               <div className='p-3 ps-0'>
                               <h5 className='profile-des-1' >NODE JS</h5>
                                 <div className="progress">
-                                    <div className="react-percentage progress-bar" style={{width: '80%'}} role="progressbar"  aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">80%</div>
+                                    <div className="react-percentage progress-bar" style={{width: '90%'}} role="progressbar"  aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">90%</div>
                                     </div>
                               </div>
                               <div className='p-3 ps-0'>
                               <h5 className='profile-des-1' >EXPRESS JS</h5>
                                 <div className="progress">
-                                    <div className="react-percentage progress-bar" style={{width: '80%'}} role="progressbar"  aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">80%</div>
+                                    <div className="react-percentage progress-bar" style={{width: '75%'}} role="progressbar"  aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">75%</div>
                                     </div>
                               </div>
                               <div className='p-3 ps-0'>
                               <h5 className='profile-des-1' >BOOTSTRAP</h5>
+                                <div className="progress">
+                                    <div className="react-percentage progress-bar" style={{width: '85%'}} role="progressbar"  aria-valuenow="25" aria-valuemin="0" aria-valuemax="90">85%</div>
+                                    </div>
+                              </div>
+                              <div className='p-3 ps-0'>
+                              <h5 className='profile-des-1' >TAILWIND CSS</h5>
                                 <div className="progress">
                                     <div className="react-percentage progress-bar" style={{width: '85%'}} role="progressbar"  aria-valuenow="25" aria-valuemin="0" aria-valuemax="90">85%</div>
                                     </div>
