@@ -31,10 +31,14 @@ const MyPortfolio = () => {
             </div>
            <div>
            <MoblieShop></MoblieShop>
-           <MobileShopShow></MobileShopShow>
+           <div className=''>
+           <div className='w-75 mx-auto'><MobileShopShow></MobileShopShow></div>
+           </div>
            <div className='mt-5'>
             <School></School>
-            <SchoolShow></SchoolShow>
+            <div className=''>
+           <div className='w-75 mx-auto'><SchoolShow></SchoolShow></div>
+           </div>
 
            </div>
            </div>
