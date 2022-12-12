@@ -38,7 +38,7 @@ const HeaderBanner = () => {
                 <div className='icons mt-4'>
                         <a  className='icon-style' target='_blank' href="https://web.facebook.com/mejbamagura"><i class="fab fa-facebook-f"></i></a>
                         <span></span>
-                        <a  className='icon-style' target='_blank' href="https://www.linkedin.com/in/md-mejbaur-rahman-14b459227/"><i class="fab fa-linkedin-in"></i></a>
+                        <a  className='icon-style' target='_blank' href="https://www.linkedin.com/in/md-mejbaur-rahman/"><i class="fab fa-linkedin-in"></i></a>
                         <span></span>
                          <a className='icon-style' target='_blank' href="https://github.com/mejbaurrahman"><i class="fab fa-github"></i></a> 
                         <span></span>

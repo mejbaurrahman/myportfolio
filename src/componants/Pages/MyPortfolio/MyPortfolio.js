@@ -12,6 +12,8 @@ import MoblieShop from './MobileShop/MoblieShop';
 import MobileShopShow from '../../../Myprojects/MobileShopShow/MobileShopShow';
 import School from './School/School';
 import SchoolShow from '../../../Myprojects/SchoolShow/SchoolShow';
+import Dental from './Dental/Dental';
+import DentalShow from '../../../Myprojects/DentalShow/DentalShow';
 
 
 
@@ -38,6 +40,13 @@ const MyPortfolio = () => {
             <School></School>
             <div className=''>
            <div className='w-75 mx-auto'><SchoolShow></SchoolShow></div>
+           </div>
+
+           </div>
+           <div className='mt-5'>
+            <Dental></Dental>
+            <div className=''>
+           <div className='w-75 mx-auto'><DentalShow></DentalShow></div>
            </div>
 
            </div>
